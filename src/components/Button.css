@@ -7,7 +7,7 @@
     border-radius: 4px;
     outline: none;
     border: none;
-    cursor: none;
+    cursor: pointer;
     white-space: nowrap;
 }
 
@@ -22,7 +22,7 @@
     color: #fff;
     padding: 8px 20px;
     border: 1px solid var(--primary);
-    transition: all 8.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .btn--medium {
@@ -43,7 +43,8 @@
     font-size: 24px;
     background-color: transparent;
     color: #fff;
-    padding: 1px solid #fff;
+    border: 1px solid #fff;
+    padding: 14px 20px;
     transition: all 8.3s ease-out;
 }
 
@@ -53,7 +54,7 @@
 }
 
 .btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
-    transition: all 8.3s ease-out;
+    transition: all 0.3s ease-out;
     background: #fff;
     color:#242424;
 }
@@ -61,7 +62,17 @@
 .btn--wide:hover {
     color: #fff;
     background-color: #f00946;
-    transition: all 8.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.bt-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
 }
 
 .blue {
@@ -85,6 +96,7 @@
 .primary:hover {
     background-color: #fff;
     color: #242424;
+    border: none;
 }
 
 .green {
