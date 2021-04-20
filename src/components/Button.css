@@ -40,12 +40,12 @@
     border-radius: 4px;
     width: 80%;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
     padding: 14px 20px;
-    transition: all 8.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .btn--wide {
@@ -107,4 +107,14 @@
 
 .green:hover{
     background-color: #242424;
+}
+
+.btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
 }
