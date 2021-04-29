@@ -9,7 +9,7 @@ function HeroSection({
 }) {
     return (
         <>
-            <div className={lightBg ? 'home__hero-section' : 'home__hero-section-darkBg'}>
+            <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
                 <div className='container'>
                     <div className='row home__hero-row' style={{ display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row' }}>
                         <div className='col'>
